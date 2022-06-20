@@ -11,7 +11,6 @@ signal cnt:integer:=0;
 signal cnt1:integer:=0;
 signal cnt2:integer:=0;
 
---signal q:STD_LOGIC_vector(31 downto 0);
 begin
 
 process(clk)
@@ -36,6 +35,4 @@ process(clk)
 			end if;
 		end if;
 	end process;
-
-
 end Behavioral;
